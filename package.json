@@ -1,0 +1,23 @@
+{
+  "name": "8051asm",
+  "version": "1.0.0",
+  "description": "asm 8051 syntax highlight for atom",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yokkidack/8051ASM.git"
+  },
+  "keywords": [
+    "ASM",
+    "8051"
+  ],
+  "author": "yokkidack",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yokkidack/8051ASM/issues"
+  },
+  "homepage": "https://github.com/yokkidack/8051ASM#readme"
+}

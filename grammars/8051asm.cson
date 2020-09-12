@@ -1,0 +1,29 @@
+'scopeName' : 'source.asm8051.asm'
+'name' : '8051'
+'fileTypes' : [
+  'asm'
+  's'
+]
+'patterns' : [
+   {
+      'match' : ';.*'
+      'name' : 'comment.line.number-sign.simple'
+   }
+   {
+       'match': '\\b(?i:(ld|st|add|br|bz|dec|clr|halt|wait|jnb|jb|setb|jmp))\\b'
+       'name': 'keyword.mnemonic'
+   }
+   {
+       'match': '\\b(?i:(equ|data|res|org|end))\\b'
+       'name': 'keyword.control.directive'
+   }
+   {
+       'match': '/(((h|H)(\')[0-9a-fA-F]*)|([0-9]+))\\b'
+       'name': 'support.function.system'
+   }
+   {
+       'match': '\\b(((h|H)(\')[0-9a-fA-F]*)|([0-9]+))\\b'
+       'name': 'constant.numeric.c'
+   }
+
+]
