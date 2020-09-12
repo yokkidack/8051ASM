@@ -22,7 +22,7 @@
        'name': 'support.function.system'
    }
    {
-       'match': '\\b(((h|H)(\')[0-9a-fA-F]*)|([0-9]+))\\b'
+       'match': '\\b(((#?)(h|H)(\')[0-9a-fA-F]*)|([0-9]+))\\b'
        'name': 'constant.numeric.c'
    }
 
