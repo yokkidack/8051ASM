@@ -1,6 +1,6 @@
 {
   "name": "8051asm",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "asm 8051 syntax highlight for atom",
   "main": "index.js",
   "scripts": {
